@@ -1,0 +1,33 @@
+.navigation {
+  background-color: #150300;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.brand, .links {
+  display: inline;
+}
+.brand {
+  margin-left: 10px;
+}
+
+.links {
+  float: right;
+  margin: 0;
+}
+.links li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.active {
+  text-decoration: underline !important;
+}
