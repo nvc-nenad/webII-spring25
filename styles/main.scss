@@ -1,0 +1,46 @@
+@use './vendor/normalize';
+@use './partials/colors';
+@use './partials/spacing';
+
+.links {
+  float: right;
+  margin: 0;
+  li {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+.navigation {
+  background-color: colors.$dark-bg;
+  padding: spacing.$spacing-10;
+  a {
+    color: colors.$light-font-color;
+    text-decoration: none;
+  }
+}
+ul {
+  li {
+    list-style: none;
+    display: inline;
+  }
+}
+.brand, .links {
+  display: inline;
+}
+.brand {
+  margin-left: spacing.$spacing-10;
+}
+.links {
+  float: right;
+  margin: 0;
+}
+.active {
+  text-decoration: underline !important;
+}
+.left {
+  color: red;
+}
+.footer {
+  background-color: colors.$dark-bg;
+  color: colors.$light-font-color;
+}
